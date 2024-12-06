@@ -4,9 +4,16 @@ const cron = require("node-cron");
 
 // Define file categories and their extensions
 const categories = {
-  images: [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".svg", ".webp"],
-  pdfs: [".pdf"],
-  videos: [".mp4", ".mkv", ".avi", ".mov", ".wmv"],
+    images: [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".svg", ".webp"],
+    pdfs: [".pdf"],
+    documents: [".txt", ".doc", ".docx", ".odt", ".xls", ".xlsx", ".ods"],
+    presentations: [".ppt", ".pptx", ".odp"],
+    videos: [".mp4", ".mkv", ".avi", ".mov", ".wmv"],
+    music: [".mp3", ".wav", ".flac", ".ogg"],
+    archives: [".zip", ".rar", ".7z", ".tar", ".gz"],
+    executables: [".exe", ".msi"],
+    code: [".html", ".css", ".js", ".py", ".java", ".c", ".cpp"],
+    apps: [".deb", ".dmg", ".apk", ".appimage"],
 };
 
 // Get file category by extension
