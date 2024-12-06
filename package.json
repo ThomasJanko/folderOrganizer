@@ -1,0 +1,23 @@
+{
+  "name": "foldersorganiser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "foldersorganiser": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  },
+  "pkg": {
+    "scripts": "index.js",
+    "targets": ["node16-win-x64"],
+    "outputPath": "./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
